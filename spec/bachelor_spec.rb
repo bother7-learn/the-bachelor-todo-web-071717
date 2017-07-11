@@ -1,5 +1,5 @@
-describe "bachelor" do 
-
+describe "bachelor" do
+require 'pry'
   let(:data) { JSON.parse(File.read('spec/fixtures/contestants.json')) }
 
   describe "#get_first_name_of_season_winner" do
@@ -71,4 +71,3 @@ describe "bachelor" do
   end
 
 end
-
